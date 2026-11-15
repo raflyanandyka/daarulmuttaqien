@@ -78,7 +78,7 @@
           <a href="#beranda"
             class="py-2 text-primary font-semibold border-b-2 border-primary transition-colors">Beranda</a>
           <a href="#profil-section" class="py-2 text-text-muted hover:text-primary transition-colors">Profil</a>
-          <a href="#program-section" class="py-2 text-text-muted hover:text-primary transition-colors">4 Kurikulum</a>
+          <a href="#program-section" class="py-2 text-text-muted hover:text-primary transition-colors">Kurikulum</a>
           <a href="#jadwal-section" class="py-2 text-text-muted hover:text-primary transition-colors">Jadwal Harian</a>
           <a href="#jenjang-section" class="py-2 text-text-muted hover:text-primary transition-colors">Jenjang
             Pendidikan</a>
@@ -106,7 +106,7 @@
         class="block px-3 py-2 text-sm text-text-muted hover:text-primary rounded-lg hover:bg-surface-dim">Profil &amp;
         Visi Misi</a>
       <a href="#program-section" onclick="toggleMenu()"
-        class="block px-3 py-2 text-sm text-text-muted hover:text-primary rounded-lg hover:bg-surface-dim">4 Kurikulum
+        class="block px-3 py-2 text-sm text-text-muted hover:text-primary rounded-lg hover:bg-surface-dim">Kurikulum
         Terpadu</a>
       <a href="#jadwal-section" onclick="toggleMenu()"
         class="block px-3 py-2 text-sm text-text-muted hover:text-primary rounded-lg hover:bg-surface-dim">Jadwal Harian
@@ -291,7 +291,7 @@
         <div id="leader-carousel"
           class="relative bg-primary rounded-2xl text-white border border-primary-container shadow-md overflow-hidden">
           <!-- Carousel Slides Track -->
-          <div id="leader-carousel-track" class="flex transition-transform duration-300 ease-in-out"
+          <div id="leader-carousel-track" class="flex transition-transform duration-700 ease-in-out"
             style="transform: translateX(0%);">
             <!-- Slide 1: Pimpinan Kampus 1 -->
             <div class="w-full shrink-0 p-6 sm:p-10 pb-10 sm:pb-12">
@@ -1187,7 +1187,8 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div class="bg-white rounded-xl overflow-hidden border border-surface-border shadow-xs flex flex-col">
             <div class="aspect-[4/3] bg-primary/10 flex items-center justify-center text-primary">
-              <span class="material-symbols-outlined text-4xl text-secondary-dark">school</span>
+              <!-- <span class="material-symbols-outlined text-4xl text-secondary-dark">school</span> -->
+              <img src="img/kbm.jpeg" alt="kegiatan belajar mengajar">
             </div>
             <div class="p-4">
               <span class="text-[11px] font-bold text-primary uppercase tracking-wide block mb-1">Akademik</span>
@@ -1622,7 +1623,7 @@
           <h5 class="text-sm font-bold text-secondary border-b border-white/10 pb-1.5">Tautan Cepat</h5>
           <a href="#beranda" class="hover:text-white transition">Beranda</a>
           <a href="#profil-section" class="hover:text-white transition">Profil &amp; Visi Misi</a>
-          <a href="#program-section" class="hover:text-white transition">4 Kurikulum Terpadu</a>
+          <a href="#program-section" class="hover:text-white transition">Kurikulum Terpadu</a>
           <a href="#jadwal-section" class="hover:text-white transition">Jadwal Harian Santri</a>
           <a href="#jenjang-section" class="hover:text-white transition">Jenjang Pendidikan (2 Kampus)</a>
           <a href="#ppdb-section" class="hover:text-white transition">Biaya &amp; PPDB Online</a>
@@ -1703,7 +1704,7 @@
 
       let currentIndex = 0;
       const totalSlides = 2;
-      const intervalMs = 6000; // Transitions every 6 seconds
+      const intervalMs = 5000; // Transitions every 6 seconds
       let timer = null;
 
       function updateSlide(index) {
